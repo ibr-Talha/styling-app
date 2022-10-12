@@ -1,7 +1,10 @@
+import Events from "./compenent/1-event/Events";
+
+
 function App() {
   return (
     <div>
-      <h1>EVENTS</h1>
+      <Events />
     </div>
   );
 }
