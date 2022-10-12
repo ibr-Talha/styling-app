@@ -17,7 +17,7 @@ class Counter extends Component {
 
     //! count state'ine baslangic degeri atadik
     this.state = {
-      count: 0,
+      count:props.count|| 0,
     };
     this.increment = this.increment.bind(this);
   }
